@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Image Carousel</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <div class="slider">
+        <div class="dots" id="dots"></div>
+        <div class="slides">
+            <!-- Each image is wrapped inside a div with class "slide" -->
+            <div class="slide">
+                <img src="icons/kicckks.jpg" alt="Image 1">
+            </div>
+            <div class="slide">
+                <img src="icons/kickkk.jpg" alt="Image 2">
+            </div>
+            <div class="slide">
+                <img src="icons/kickks.jpg" alt="Image 3">
+            </div>
+            <div class="slide">
+                <img src="icons/kicks.jpg" alt="Image 4">
+            </div>
+            <div class="slide">
+                <img src="icons/ninja.jpg" alt="Image 4">
+            </div>
+            <div class="slide">
+                <img src="icons/ninjaa.jpg" alt="Image 4">
+            </div>
+            <div class="slide">
+                <img src="icons/ninnja.jpg" alt="Image 4">
+            </div>
+        </div>
+
+        <!-- Navigation buttons -->
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+
+    <script src="script/scripts.js"></script>
+</body>
+
+</html>
